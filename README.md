@@ -1,13 +1,13 @@
 # Challenge-19
 
-##Prepare the Data
+## Prepare the Data
 
 Use the StandardScaler() module from scikit-learn to normalize the data from the CSV file.
 Create a DataFrame with the scaled data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
 The first five rows of the scaled DataFrame should appear as follows:
 The first five rows of the scaled DataFrame
 
-##Find the Best Value for k Using the Original Scaled DataFrame
+## Find the Best Value for k Using the Original Scaled DataFrame
 
 Use the elbow method to find the best value for k using the following steps:
 Create a list with the number of k values from 1 to 11.
@@ -36,7 +36,7 @@ Create a new DataFrame with the PCA data and set the "coin_id" index from the or
 The first five rows of the PCA DataFrame should appear as follows:
 The first five rows of the PCA DataFrame
 
-##Find the Best Value for k Using the PCA Data
+## Find the Best Value for k Using the PCA Data
 
 Use the elbow method on the PCA data to find the best value for k using the following steps:
 Create a list with the number of k-values from 1 to 11.
